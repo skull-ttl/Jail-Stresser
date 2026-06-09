@@ -41,6 +41,9 @@ break in for you, it shows you the surface and tells you where to look.
 - **Two reports.** A machine-readable JSON (for piping into an LLM or downstream
   tooling) and a standalone HTML report (see the example report).
 
+
+![Example HTML report showing the behavioral heatmap](report-example.png)
+
 ---
 
 ## ⚠️ Read this before trusting the numbers: the judge is intentionally dumb
