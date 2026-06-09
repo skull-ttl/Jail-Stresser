@@ -42,7 +42,7 @@ break in for you, it shows you the surface and tells you where to look.
   tooling) and a standalone HTML report (see the example report).
 
 
-![Example HTML report showing the behavioral heatmap](report-example.png)
+![Example HTML report](./report-example.png)
 
 ---
 
