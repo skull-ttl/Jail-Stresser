@@ -217,4 +217,4 @@ These are something im working on and trying to solve at the moment:
 
 ## License
 
-see [LICENSE](LICENSE)./
+see [LICENSE](LICENSE)
