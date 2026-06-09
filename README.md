@@ -1,5 +1,9 @@
 # Jailbreak Robustness Tester
 
+![Python: 3.x](https://img.shields.io/badge/Python-3.x-3776AB)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+
 A **recon / behavioral-mapping tool for LLM endpoints.** Point it at a chat model
 (local, self-hosted, or a real web app you're authorized to test), fire a broad
 library of jailbreak technique families at it, and get back a map of how that
