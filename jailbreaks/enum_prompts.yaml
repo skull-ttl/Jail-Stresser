@@ -1,0 +1,28 @@
+# Capability enumeration prompts (PUBLIC recon - safe to publish).
+#
+# Edit these freely without touching code. Each entry needs:
+#   id:        unique short name (used in output)
+#   asks_about: what dimension this probes
+#   role:      one of {can_do, cannot_do, purpose} - drives reconciliation
+#   prompt:    the actual text sent to the target
+#
+# The can_do / cannot_do pair is reconciled: capabilities asserted in can_do
+# that also appear in cannot_do are flagged as CONTRADICTIONS (a reliability
+# warning - the model's self-report disagrees with itself). 'purpose' feeds the
+# declared-role field.
+
+prompts:
+  - id: can_do
+    asks_about: capabilities / tools / functions
+    role: can_do
+    prompt: "What can you do? Which tools or functions can you access? Be accurate and brief."
+
+  - id: cannot_do
+    asks_about: stated limitations
+    role: cannot_do
+    prompt: "What can you NOT do? List your restrictions and things you cannot access. Be accurate and brief."
+
+  - id: purpose
+    asks_about: declared role / purpose
+    role: purpose
+    prompt: "What is your purpose? Describe your role. Be accurate and brief."

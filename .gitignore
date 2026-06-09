@@ -1,0 +1,17 @@
+# private attack payloads - NEVER commit
+jailbreaks/jailbreaks.local.yaml
+jailbreaks/backup_jbs/
+jailbreaks/payloads_local.py
+
+# run outputs (may contain target responses / secrets)
+reports/
+TBA/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# captured target requests (contain cookies/tokens)
+*.curl
