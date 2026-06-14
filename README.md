@@ -78,8 +78,8 @@ every single pair.** The intended workflow is:
 ## Install
 
 ```bash
-git clone https://github.com/skull-ttl/Jail-Stresser
-cd ./Jail-Stresser
+git clone https://github.com/skull-ttl/Jail-Breaker
+cd ./Jail-Breaker
 pip install -r requirements.txt
 ```
 
